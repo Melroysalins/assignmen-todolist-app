@@ -56,7 +56,7 @@ const Containner = () => {
   };
 
   return (
-    <div className="w-[1000px] max-lg:w-[800px] max-md:w-[600px] max-sm:w-[100%] max-sm:mt-0 max-sm:h-[100vh] max-sm:rounded-none bg-white border rounded-[32px] mt-[150px] h-[670px] shadow-custom-shadow flex justify-center align-middle">
+    <div className="w-[1000px] max-lg:w-[800px] max-md:w-[600px] max-sm:w-[100%] max-sm:mt-0 max-sm:h-[100vh] max-sm:rounded-none bg-white border rounded-[32px] mt-[150px] h-[670px] shadow-custom-shadow flex justify-center align-middle overflow-clip">
       <div className=" w-[600px] flex flex-col max-md:[450px] max-md:p-4 max-sm:w-[100%]">
         <div className=" mt-[80px]">
           <Header />

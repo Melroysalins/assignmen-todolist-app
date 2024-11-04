@@ -6,7 +6,7 @@ const InputBox = ({ inputValue, onchange, onclick }) => {
       <input
         type="text"
         placeholder="Add new list item"
-        className="outline-none w-[90%] p-4 text-[#B1BACB]"
+        className="outline-none w-[90%] p-4 text-[#B1BACB] overflow-hidden"
         value={inputValue}
         onChange={onchange}
       />
