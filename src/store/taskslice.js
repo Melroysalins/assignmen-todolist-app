@@ -1,6 +1,5 @@
 "use client";
 import { createSlice } from "@reduxjs/toolkit";
-import { act } from "react";
 
 const taskSlice = createSlice({
   name: "task",

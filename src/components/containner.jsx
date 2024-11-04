@@ -10,7 +10,7 @@ import { addCurrentTask } from "@/store/taskslice";
 import { generateRandomIds } from "@/utils/generateid";
 
 const Containner = () => {
-  const taskSelector = useSelector((store) => store?.task?.taskdetails);
+  const taskSelector = useSelector((store) => store?.task?.taskdetails || []);
   const [inputValue, SetInputValue] = useState("");
   const [error, SetError] = useState("");
   const [open, SetOpen] = useState(false);
